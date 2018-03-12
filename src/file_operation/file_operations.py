@@ -1,0 +1,7 @@
+fp = open("/tmp/xyz.txt", "w+")
+fp.seek(0)
+fp.write("Python is fun!")
+fp.write("\nThis was great day!")
+fp.seek(0)
+print(fp.read())
+fp.close()
